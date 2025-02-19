@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Angkor&family=Antic&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  
+    <div class="container">
+        <div class="nav-bar">
+            <h4> MY PORTFOLIO</h4>
+            <nav>          
+                <ul>
+                    
+                    
+                    <li><a href="contact.html">CONTACT ME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li style="cursor: pointer;" onclick="navshow()">&#x2630;</li>
+                </ul>
+            </nav>
+            <div class="second-nav" id="navshow"> 
+                <div><a href="index.html">HOME</a></div>
+                <div><a href="about.html">ABOUT</a></div>
+                 <div><a href="contact.html">CONTACT ME</a></div>
+
+
+        </div>
+        </div>
+        <div class="image">
+            <img src="tal.JPG" width="300" height="300" alt="">
+        </div>
+
+        <div class="text">
+            <h6>
+                <span style="text-align: center;"> * Hi, I'm Christalen R. Velarde lived in Canlargo 2, Del- Pilar. I'm currently a 3rd year student at NORSU Bais Campus 1, taking up Bachelor of Science in Information Technology. </span></h6>
+            </p></h5>
+          </div>
+           
+        </div>
+    </div>
+
+</body>
+<script>
+    function navshow(){
+        let x=document.getElementById('navshow');
+        if(x.style.display === "block"){
+            x.style.display = "none";
+        }else{
+            x.style.display= "block";
+
+        }
+        }
+    </script>     
+</html>
